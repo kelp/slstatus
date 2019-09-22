@@ -160,8 +160,8 @@
 			unsigned int state;
 			char *symbol;
 		} map[] = {
-			{ APM_AC_ON,      "+" },
-			{ APM_AC_OFF,     "-" },
+			{ APM_AC_ON,      "" },
+			{ APM_AC_OFF,     "" },
 		};
 		struct apm_power_info apm_info;
 		size_t i;

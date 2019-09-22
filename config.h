@@ -64,11 +64,9 @@ static const char unknown_str[] = "n/a";
 
 static const struct arg args[] = {
 	/* function format          argument */
-	{ kernel_release, "  OpenBSD %s | ",     "NULL" },
-	{ battery_perc, "  %s%% ",       "NULL" },
-	{ battery_state, "%s | ",      "NULL" },
-	{ cpu_perc, "  %s%% ",           "NULL" },
-	{ cpu_freq, "%s | ",           "NULL" },
-	{ ram_free, "  %s | ",           "NULL" },
-	{ datetime, "%s  ",           "%F %H:%M" },
+	{ battery_state, "  %s",      "NULL" },
+	{ battery_perc, " %3s%% | ",       "NULL" },
+	{ cpu_perc, " %3s%% | ",           "NULL" },
+	{ ram_perc, "  %3s%% | ",           "NULL" },
+	{ datetime, "%s  ",           "%H:%M | %a %Y %m %d" },
 };
