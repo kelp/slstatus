@@ -67,8 +67,8 @@ static const struct arg args[] = {
 	{ battery_state, "  %s",       "NULL" },
 	{ battery_perc, " %4s%% | ",    "NULL" },
 	{ cpu_perc, " %3s%% | ",       "NULL" },
-	{ ram_perc, "  %3s%% | ",      "NULL" },
-	{ netspeed_rx, "  %7s ",       "iwm0" },
-	{ netspeed_tx, "  %8s | ",     "iwm0" },
-	{ datetime, "%s  ",            "%H:%M | %a %Y %m %d" },
+	{ ram_perc, "  %3s%%  ",      "NULL" },
+/*	{ netspeed_rx, "  %7s ",       "iwm0" },
+	{ netspeed_tx, "  %8s  ",     "iwm0" }, */
+	{ datetime, " %s  ",            "%a %Y %m %d | %H:%M" },
 };
